@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.6
       with:
         server: pedigree.double6.co.uk
-        username: flatcapdesign@pedigree.double6.co.uk
+        username: flatcapdesign
         password: ${{ secrets.password }}
