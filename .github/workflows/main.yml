@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.6
       with:
-        server: pedigree.double6.co.uk
+        server: fatcapdesign.co.uk
         username: flatcapdesign@pedigree.double6.co.uk
         password: ${{ secrets.password }}
